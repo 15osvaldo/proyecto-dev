@@ -1,0 +1,63 @@
+
+
+.color-white{
+    color: white;
+    text-align: start;
+}
+
+.ocultar
+{
+    display: none;
+}
+.bi::before {
+    display: inline-block;
+    content: "";
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path fill='none' stroke='%23333' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 14l6-6-6-6'/></svg>");
+    background-repeat: no-repeat;
+    background-size: 1rem 1rem;
+}
+.menu-uno{
+    
+    position:absolute;
+    z-index:3;left:20em;
+     top:100px; 
+     opacity:0.9;color: #818dfd;
+}
+
+.mifondo{
+    width: 0;
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: whitesmoke;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.mifondo a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+
+
+.mifondo a:hover {
+    color:blue;
+  }
+  
+.mifondo .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+}
+
+  .mimenu{
+      list-style: none;
+  }
